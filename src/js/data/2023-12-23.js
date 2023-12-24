@@ -68,7 +68,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Agate Crosner",
     img: "Agate_Crosner.png",
     opts: {
-      series: ["FC", "SC", "3rd", "CS4", "Haji"]
+      series: ["FC", "SC", "3rd", "CS3", "CS4", "Haji"]
     }
   },
   {
@@ -91,6 +91,62 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["FC", "SC", "3rd", "CS4"],
       NPC: true
+    }
+  },
+  {
+    name: "Kevin Graham",
+    img: "Kevin_Graham.png",
+    opts: {
+      series: ["SC", "3rd", "AO"]
+    }
+  },
+  {
+    name: "Ries Argent",
+    img: "Ries_Argent.png",
+    opts: {
+      series: ["3rd", "AO"]
+    }
+  },
+  {
+    name: "Renne",
+    img: "Renne_Bright.png",
+    opts: {
+      series: ["SC", "3rd", "Zero", "AO", "CS4", "Haji", "Kuro"]
+    }
+  },
+  {
+    name: "Josette Capua",
+    img: "Josette_Capua.png",
+    opts: {
+      series: ["FC", "SC", "3rd", "CS3", "CS4", "Haji"]
+    },
+  },
+  {
+    name: "Anelace Elfead",
+    img: "Anelace_Elfead.png",
+    opts: {
+      series: ["FC", "SC", "3rd"]
+    }
+  },
+  {
+    name: "Julia Schwarz",
+    img: "Julia_Schwarz.png",
+    opts: {
+      series: ["FC", "SC", "3rd", "AO"]
+    }
+  },
+  {
+    name: "Mueller Vander",
+    img: "Mueller_Vander.png",
+    opts: {
+      series: ["FC", "SC", "3rd", "AO", "CS2"]
+    }
+  },
+  {
+    name: "Alan Richard",
+    img: "Alan_Richard.png",
+    opts: {
+      series: ["FC", "SC", "3rd"]
     }
   }
 ];
