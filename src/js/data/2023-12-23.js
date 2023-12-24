@@ -148,5 +148,271 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["FC", "SC", "3rd"]
     }
+  },
+  {
+    name: "Lloyd Bannings",
+    img: "Lloyd_Bannings.png",
+    opts: {
+      series: ["Zero", "AO", "CS2", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Elie MacDowell",
+    img: "Elie_MacDowell.png",
+    opts: {
+      series: ["Zero", "AO", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Tio Plato",
+    img: "Tio_Plato.png",
+    opts: {
+      series: ["Zero", "AO", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Randy Orlando",
+    img: "Randy_Orlando.png",
+    opts: {
+      series: ["Zero", "AO", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Noel Seeker",
+    img: "Noel_Seeker.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"]
+    }
+  },
+  {
+    name: "Wazy Hemisphere",
+    img: "Wazy_Hemisphere.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"]
+    }
+  },
+  {
+    name: "Rixia Mao",
+    img: "Rixia_Mao.png",
+    opts: {
+      series: ["Zero", "AO", "CS2", "Haji", "Kuro"]
+    }
+  },
+  {
+    name: "Alex Dudley",
+    img: "Alex_Dudley.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"]
+    }
+  },
+  {
+    name: "Arios MacLaine",
+    img: "Arios_MacLaine.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"]
+    }
+  },
+  {
+    name: "Garcia Rossi",
+    img: "Garcia_Rossi.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"]
+    }
+  },
+  {
+    name: "Rean Schwarzer",
+    img: "Rean_Schwarzer.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Valimar",
+    img: "Valimar_-_Concept_Art.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4"]
+    }
+  },
+  {
+    name: "Alisa Reinford",
+    img: "Alisa_Reinford.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Elliot Craig",
+    img: "Elliot_Craig.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Laura S. Arseid",
+    img: "Laura_S._Arseid.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Machias Regnitz",
+    img: "Machias_Regnitz.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Emma Millstein",
+    img: "Emma_Millstein.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Jusis Albarea",
+    img: "Jusis_Albarea.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Fie Claussell",
+    img: "Fie_Claussell.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji", "Kuro"]
+    }
+  },
+  {
+    name: "Gaius Worzel",
+    img: "Gaius_Worzel.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Millium Orion",
+    img: "Millium_Orion.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Crow Armbrust",
+    img: "Crow_2_-_Menu_Bust.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Sara Valestein",
+    img: "Sara_Valestein.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Angelica Rogner",
+    img: "Angelica_Rogner.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Toval Randonneur",
+    img: "Toval_Randonneur.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Claire Rieveldt",
+    img: "Claire_Rieveldt.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Sharon Kreuger",
+    img: "Sharon_Kreuger.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Elise Schwarzer",
+    img: "Elise_Schwarzer.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Alfin Reise Arnor",
+    img: "Alfin_Reise_Arnor.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Towa Herschel",
+    img: "Towa_Herschel.png",
+    opts: {
+      series: ["AO","CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Altina Orion",
+    img: "Altina_Orion.png",
+    opts: {
+      series: ["CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Vita Clotilde",
+    img: "Vita_Clotilde.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Ash Carbide",
+    img: "Ash_Carbide.png",
+    opts: {
+      series: ["CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Juna Crawford",
+    img: "Juna_Crawford.png",
+    opts: {
+      series: ["Zero", "AO", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Kurt Vander",
+    img: "Kurt_Vander.png",
+    opts: {
+      series: ["CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Musse Egret",
+    img: "Musse_Egret.png",
+    opts: {
+      series: ["CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Aurelia Le Guin",
+    img: "Aurelia_Le_Guin.png",
+    opts: {
+      series: ["CS2", "CS3", "CS4", "Haji"]
+    }
+  },
+  {
+    name: "Lechter Arundel",
+    img: "Lechter_Arundel.png",
+    opts: {
+      series: ["3rd", "Zero", "AO", "CS1", "CS2", "CS3", "CS4", "Haji"]
+    }
   }
 ];
