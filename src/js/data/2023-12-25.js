@@ -54,6 +54,7 @@ dataSet[dataSetVersion].options = [
 ];
 
 dataSet[dataSetVersion].characterData = [
+  // Liberl.
   {
     name: "Estelle Bright",
     img: "Estelle_Bright.png",
@@ -192,6 +193,196 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Maximillian Cid",
+    img: "Maximillian_Cid.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["libarmy"],
+      NPC: true
+    }
+  },
+  {
+    name: "Mayor Klaus",
+    img: "Klaus.png",
+    opts: {
+      series: ["FC", "SC"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Maybelle",
+    img: "Mayor_Maybelle.png",
+    opts: {
+      series: ["FC", "SC"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Morgan",
+    img: "Morgan.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["libarmy"],
+      NPC: true
+    }
+  },
+  {
+    name: "Morris Dalmore",
+    img: "Morris_Dalmore.png",
+    opts: {
+      series: ["FC", "SC"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Murdock",
+    img: "Murdock.png",
+    opts: {
+      series: ["FC", "SC"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Nial Burns",
+    img: "Nial_Burns.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Theresa",
+    img: "Matron_Theresa.png",
+    opts: {
+      series: ["FC", "SC"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Loewe",
+    img: "Leonhardt.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Kurt Nardin",
+    img: "Kurt_Nardin.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["bracer"],
+      NPC: true
+    }
+  },
+  {
+    name: "Kanone Amalthea",
+    img: "Kanone_Amalthea.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["libarmy"],
+      NPC: true
+    }
+  },
+  {
+    name: "Albert Russell",
+    img: "Professor_Russell.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Alicia von Auslese",
+    img: "Alicia_Von_Auslese.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Dorothy Hyatt",
+    img: "Dorothy_Hyatt.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Dunan von Auslese",
+    img: "Dunan_Von_Auslese.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Gilbert Stein",
+    img: "Gilbert_Stein.png",
+    opts: {
+      series: ["FC", "SC", "3rd", "CS4", "Haji"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Georg Weissmann",
+    img: "Georg_Weissmann.png",
+    opts: {
+      series: ["FC", "SC", "3rd"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Bleublanc",
+    img: "Georg_Weissmann.png",
+    opts: {
+      series: ["SC", "3rd", "CS1", "CS2", "CS4"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Campanella",
+    img: "Georg_Weissmann.png",
+    opts: {
+      series: ["SC", "3rd", "AO"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Luciola",
+    img: "Georg_Weissmann.png",
+    opts: {
+      series: ["SC", "3rd", "AO"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Walter Kron",
+    img: "Georg_Weissmann.png",
+    opts: {
+      series: ["SC", "3rd", "Kuro"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  // Crosbell.
+  {
     name: "Lloyd Bannings",
     img: "Lloyd_Bannings.png",
     opts: {
@@ -271,6 +462,7 @@ dataSet[dataSetVersion].characterData = [
       character: ["play", "gen"]
     }
   },
+  // Erebonia.
   {
     name: "Rean Schwarzer",
     img: "Rean_Schwarzer.png",
