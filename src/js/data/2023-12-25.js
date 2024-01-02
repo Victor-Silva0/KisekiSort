@@ -42,14 +42,22 @@ dataSet[dataSetVersion].options = [
         { name: "Thors Military Academy Main Campus", tooltip: "characters that are/were part of the main campus", key: "thors1" },
         { name: "Thors Military Academy Branch Campus", tooltip: "characters that are/were part of the branch campus", key: "thors2" },
         { name: "Class VII", tooltip: "characters that are part of class VII", key: "class7" },
+        { name: "Imperial Liberation Front", tooltip: "characters that are part of Imperial Liberation Front", key: "liberation" },
         { name: "Divine Knight", tooltip: "characters that are divine knights", key: "divine" },
         { name: "Iron blood", tooltip: "characters that are part of the iron bloods", key: "blood" },
+        { name: "Central Intelligence Division", tooltip: "characters that are part of the CID", key: "CID" },
     ]
   },
   {
     name: "Remove NPCs",
     key: "NPC",
     tooltip: "Check this to remove all non-playable characters."
+  },
+  {
+    name: "Remove PC",
+    key: "PC",
+    tooltip: "Check this to remove all playable characters.",
+    checked: false
   }
 ];
 
@@ -60,7 +68,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Estelle_Bright.png",
     opts: {
       series: ["FC", "SC", "3rd", "Zero", "AO", "CS4", "Haji"],
-      character: ["play", "bracer"]
+      character: ["play", "bracer"],
+      PC: true
     }
   },
   {
@@ -68,7 +77,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Joshua_Bright.png",
     opts: {
         series: ["FC", "SC", "3rd", "Zero", "AO", "CS4", "Haji"],
-        character: ["play", "bracer"]
+        character: ["play", "bracer"],
+        PC: true
     }
   },
   {
@@ -76,7 +86,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Scherazard_Harvey.png",
     opts: {
       series: ["FC", "SC", "3rd", "CS4", "Haji"],
-      character: ["play", "bracer"]
+      character: ["play", "bracer"],
+      PC: true
     }
   },
   {
@@ -84,7 +95,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Olivert_Reise_Arnor.png",
     opts: {
       series: ["FC", "SC", "3rd", "AO", "CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "gen"]
+      character: ["play", "gen"],
+      PC: true
     }
   },
   {
@@ -92,7 +104,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Klaudia_von_Auslese.png",
     opts: {
       series: ["FC", "SC", "3rd", "AO", "CS4"],
-      character: ["play", "gen"]
+      character: ["play", "gen"],
+      PC: true
     }
   },
   {
@@ -100,7 +113,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Agate_Crosner.png",
     opts: {
       series: ["FC", "SC", "3rd", "CS3", "CS4", "Haji"],
-      character: ["play", "bracer"]
+      character: ["play", "bracer"],
+      PC: true
     }
   },
   {
@@ -108,7 +122,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Tita_Russell.png",
     opts: {
       series: ["FC", "SC", "3rd", "CS3", "CS4", "Haji"],
-      character: ["play", "thors2"]
+      character: ["play", "thors2"],
+      PC: true
     }
   },
   {
@@ -116,14 +131,15 @@ dataSet[dataSetVersion].characterData = [
     img: "Zin_Vathek.png",
     opts: {
       series: ["FC", "SC", "3rd", "Kuro"],
-      character: ["play", "bracer"]
+      character: ["play", "bracer"],
+      PC: true
     }
   },
   {
     name: "Cassius Bright",
     img: "Cassius_Bright.png",
     opts: {
-      series: ["FC", "SC", "3rd", "CS4"],
+      series: ["FC", "SC", "3rd", "CS4", "Haji"],
       character: ["libarmy", "bracer"],
       NPC: true
     }
@@ -133,7 +149,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Kevin_Graham.png",
     opts: {
       series: ["SC", "3rd", "AO"],
-      character: ["play", "church"]
+      character: ["play", "church"],
+      PC: true
     }
   },
   {
@@ -141,7 +158,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Ries_Argent.png",
     opts: {
       series: ["3rd", "AO"],
-      character: ["play", "church"]
+      character: ["play", "church"],
+      PC: true
     }
   },
   {
@@ -149,7 +167,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Renne_Bright.png",
     opts: {
       series: ["SC", "3rd", "Zero", "AO", "CS4", "Haji", "Kuro"],
-      character: ["play", "snake"]
+      character: ["play", "snake"],
+      PC: true
     }
   },
   {
@@ -157,7 +176,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Josette_Capua.png",
     opts: {
       series: ["FC", "SC", "3rd", "CS3", "CS4", "Haji"],
-      character: ["play", "gen"]
+      character: ["play", "gen"],
+      PC: true
     },
   },
   {
@@ -165,7 +185,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Anelace_Elfead.png",
     opts: {
       series: ["FC", "SC", "3rd"],
-      character: ["play", "bracer"]
+      character: ["play", "bracer"],
+      PC: true
     }
   },
   {
@@ -173,7 +194,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Julia_Schwarz.png",
     opts: {
       series: ["FC", "SC", "3rd", "AO"],
-      character: ["play", "libarmy"]
+      character: ["play", "libarmy"],
+      PC: true
     }
   },
   {
@@ -181,7 +203,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Mueller_Vander.png",
     opts: {
       series: ["FC", "SC", "3rd", "AO", "CS2"],
-      character: ["play", "erearmy"]
+      character: ["play", "erearmy"],
+      PC: true
     }
   },
   {
@@ -189,7 +212,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Alan_Richard.png",
     opts: {
       series: ["FC", "SC", "3rd"],
-      character: ["play", "libarmy"]
+      character: ["play", "libarmy"],
+      PC: true
     }
   },
   {
@@ -347,7 +371,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bleublanc",
-    img: "Georg_Weissmann.png",
+    img: "Bleublanc.png",
     opts: {
       series: ["SC", "3rd", "CS1", "CS2", "CS4"],
       character: ["snake"],
@@ -356,7 +380,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Campanella",
-    img: "Georg_Weissmann.png",
+    img: "Campanella.png",
     opts: {
       series: ["SC", "3rd", "AO"],
       character: ["snake"],
@@ -365,7 +389,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Luciola",
-    img: "Georg_Weissmann.png",
+    img: "Luciola.png",
     opts: {
       series: ["SC", "3rd", "AO"],
       character: ["snake"],
@@ -374,10 +398,55 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Walter Kron",
-    img: "Georg_Weissmann.png",
+    img: "Walter.png",
     opts: {
       series: ["SC", "3rd", "Kuro"],
       character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Kilika Rouran",
+    img: "Kilika_Rouran.png",
+    opts: {
+      series: ["FC", "SC", "3rd", "Zero", "AO", "Kuro"],
+      character: ["CID"],
+      NPC: true
+    }
+  },
+  {
+    name: "Rufina Argent",
+    img: "Rufina_Argent.png",
+    opts: {
+      series: ["3rd"],
+      character: ["church"],
+      NPC: true
+    }
+  },
+  {
+    name: "Grant",
+    img: "Grant.png",
+    opts: {
+      series: ["FC", "SC", "3rd", "Kuro"],
+      character: ["bracer"],
+      NPC: true
+    }
+  },
+  {
+    name: "Ein Selnate",
+    img: "Ein_Selnert.png",
+    opts: {
+      series: ["3rd"],
+      character: ["church"],
+      NPC: true
+    }
+  },
+  {
+    name: "Erika Russell",
+    img: "Erika_Russell.png",
+    opts: {
+      series: ["3rd", "Haji"],
+      character: ["gen"],
       NPC: true
     }
   },
@@ -387,7 +456,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Lloyd_Bannings.png",
     opts: {
       series: ["Zero", "AO", "CS2", "CS4", "Haji"],
-      character: ["play", "SSS"]
+      character: ["play", "SSS"],
+      PC: true
     }
   },
   {
@@ -395,7 +465,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Elie_MacDowell.png",
     opts: {
       series: ["Zero", "AO", "CS4", "Haji"],
-      character: ["play", "SSS"]
+      character: ["play", "SSS"],
+      PC: true
     }
   },
   {
@@ -403,7 +474,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Tio_Plato.png",
     opts: {
       series: ["Zero", "AO", "CS3", "CS4", "Haji"],
-      character: ["play", "SSS", "foundation"]
+      character: ["play", "SSS", "foundation"],
+      PC: true
     }
   },
   {
@@ -411,7 +483,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Randy_Orlando.png",
     opts: {
       series: ["Zero", "AO", "CS3", "CS4", "Haji"],
-      character: ["play", "SSS", "jaeger", "CGF"]
+      character: ["play", "SSS", "jaeger", "CGF"],
+      PC: true
     }
   },
   {
@@ -419,7 +492,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Noel_Seeker.png",
     opts: {
       series: ["Zero", "AO", "Haji"],
-      character: ["play", "SSS", "CGF"]
+      character: ["play", "SSS", "CGF"],
+      PC: true
     }
   },
   {
@@ -427,7 +501,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Wazy_Hemisphere.png",
     opts: {
       series: ["Zero", "AO", "Haji"],
-      character: ["play", "SSS", "church"]
+      character: ["play", "SSS", "church"],
+      PC: true
     }
   },
   {
@@ -435,7 +510,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Rixia_Mao.png",
     opts: {
       series: ["Zero", "AO", "CS2", "Haji", "Kuro"],
-      character: ["play", "gen"]
+      character: ["play", "gen"],
+      PC: true
     }
   },
   {
@@ -443,7 +519,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Alex_Dudley.png",
     opts: {
       series: ["Zero", "AO", "Haji"],
-      character: ["play", "CPD"]
+      character: ["play", "CPD"],
+      PC: true
     }
   },
   {
@@ -451,7 +528,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Arios_MacLaine.png",
     opts: {
       series: ["Zero", "AO", "Haji"],
-      character: ["play", "bracer"]
+      character: ["play", "bracer"],
+      PC: true
     }
   },
   {
@@ -459,7 +537,205 @@ dataSet[dataSetVersion].characterData = [
     img: "Garcia_Rossi.png",
     opts: {
       series: ["Zero", "AO", "Haji"],
-      character: ["play", "gen"]
+      character: ["play", "gen"],
+      PC: true
+    }
+  },
+  {
+    name: "Ernest Reis",
+    img: "Ernest.png",
+    opts: {
+      series: ["Zero", "AO"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Ian Grimwood",
+    img: "Ian_Grimwood.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Joachim Guenter",
+    img: "Joachim.png",
+    opts: {
+      series: ["Zero"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "KeA Bannings",
+    img: "KeA_Bannings.png",
+    opts: {
+      series: ["Zero", "AO", "CS4", "Haji"],
+      character: ["SSS"]
+    }
+  },
+  {
+    name: "Marconi",
+    img: "Marconi.png",
+    opts: {
+      series: ["Zero"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Mariabell Crois",
+    img: "Mariabell_Crois.png",
+    opts: {
+      series: ["Zero", "AO", "CS3", "CS4", "Haji"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Sergei Lou",
+    img: "Sergei_Lou.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"],
+      character: ["SSS"],
+      NPC: true
+    }
+  },
+  {
+    name: "Zeit",
+    img: "Zeit.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"],
+      character: ["SSS"],
+      NPC: true
+    }
+  },
+  {
+    name: "Guy Bannings",
+    img: "Guy_Bannings.png",
+    opts: {
+      series: ["AO"],
+      character: ["CPD"],
+      NPC: true
+    }
+  },
+  {
+    name: "Henry MacDowel",
+    img: "Henry_MacDowell.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Grace Lynn",
+    img: "Grace_Lynn.png",
+    opts: {
+      series: ["Zero", "AO", "CS4", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Fran Seeker",
+    img: "Fran_Seeker.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"],
+      character: ["CPD"],
+      NPC: true
+    }
+  },
+  {
+    name: "Cecile Neues",
+    img: "Cecile_Neues.png",
+    opts: {
+      series: ["Zero", "AO", "CS4", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Dieter Crois",
+    img: "Dieter_Crois.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Arianrhod",
+    img: "Arianrhod.png",
+    opts: {
+      series: ["AO", "CS3", "CS4"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "F. Novartis",
+    img: "F._Novartis.png",
+    opts: {
+      series: ["AO", "Haji"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Jona Sacred",
+    img: "Jona_Sacred.png",
+    opts: {
+      series: ["Zero","AO", "CS4", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Shirley Orlando",
+    img: "Shirley_Orlando.png",
+    opts: {
+      series: ["AO", "CS3", "CS4", "Haji"],
+      character: ["jaeger", "snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Shizuku MacLaine",
+    img: "Shizuku_MacLaine.png",
+    opts: {
+      series: ["Zero","AO", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Sigmund Orlando",
+    img: "Sigmund_Orlando.png",
+    opts: {
+      series: ["AO"],
+      character: ["jaeger"],
+      NPC: true
+    }
+  },
+  {
+    name: "Wald Wales",
+    img: "Wald_Wales.png",
+    opts: {
+      series: ["Zero", "AO", "Haji"],
+      character: ["church"],
+      NPC: true
+    }
+  },
+  {
+    name: "Cao Lee",
+    img: "Cao_Lee.png",
+    opts: {
+      series: ["Zero", "AO", "CS4", "Haji", "Kuro"],
+      character: ["gen"],
+      NPC: true
     }
   },
   // Erebonia.
@@ -468,7 +744,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Rean_Schwarzer.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "thors2", "class7"]
+      character: ["play", "thors1", "thors2", "class7"],
+      PC: true
     }
   },
   {
@@ -476,7 +753,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Valimar_-_Concept_Art.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4"],
-      character: ["play", "divine"]
+      character: ["play", "divine"],
+      PC: true
     }
   },
   {
@@ -484,7 +762,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Alisa_Reinford.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7"]
+      character: ["play", "thors1", "class7"],
+      PC: true
     }
   },
   {
@@ -492,7 +771,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Elliot_Craig.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7"]
+      character: ["play", "thors1", "class7"],
+      PC: true
     }
   },
   {
@@ -500,7 +780,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Laura_S._Arseid.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7"]
+      character: ["play", "thors1", "class7"],
+      PC: true
     }
   },
   {
@@ -508,7 +789,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Machias_Regnitz.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7"]
+      character: ["play", "thors1", "class7"],
+      PC: true
     }
   },
   {
@@ -516,7 +798,17 @@ dataSet[dataSetVersion].characterData = [
     img: "Emma_Millstein.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7"]
+      character: ["play", "thors1", "class7"],
+      PC: true
+    }
+  },
+  {
+    name: "Celine",
+    img: "Celine.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["play"],
+      PC: true
     }
   },
   {
@@ -524,7 +816,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Jusis_Albarea.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7"]
+      character: ["play", "thors1", "class7"],
+      PC: true
     }
   },
   {
@@ -532,7 +825,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Fie_Claussell.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji", "Kuro"],
-      character: ["play", "thors1", "class7", "bracer"]
+      character: ["play", "thors1", "class7", "bracer"],
+      PC: true
     }
   },
   {
@@ -540,7 +834,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Gaius_Worzel.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7", "church"]
+      character: ["play", "thors1", "class7", "church"],
+      PC: true
     }
   },
   {
@@ -548,7 +843,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Millium_Orion.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7", "blood"]
+      character: ["play", "thors1", "class7", "blood"],
+      PC: true
     }
   },
   {
@@ -556,7 +852,17 @@ dataSet[dataSetVersion].characterData = [
     img: "Crow_2_-_Menu_Bust.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7"]
+      character: ["play", "thors1", "class7", "liberation"],
+      PC: true
+    }
+  },
+  {
+    name: "Ordine",
+    img: "Ordine.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["play"],
+      PC: true
     }
   },
   {
@@ -564,7 +870,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Sara_Valestein.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "class7", "bracer"]
+      character: ["play", "thors1", "class7", "bracer"],
+      PC: true
     }
   },
   {
@@ -572,7 +879,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Angelica_Rogner.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1"]
+      character: ["play", "thors1"],
+      PC: true
     }
   },
   {
@@ -580,7 +888,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Toval_Randonneur.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "bracer"]
+      character: ["play", "bracer"],
+      PC: true
     }
   },
   {
@@ -588,7 +897,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Claire_Rieveldt.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "blood"]
+      character: ["play", "thors1", "blood"],
+      PC: true
     }
   },
   {
@@ -596,7 +906,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Sharon_Kreuger.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "snake"]
+      character: ["play", "snake"],
+      PC: true
     }
   },
   {
@@ -604,7 +915,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Elise_Schwarzer.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "gen"]
+      character: ["play", "gen"],
+      PC: true
     }
   },
   {
@@ -612,7 +924,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Alfin_Reise_Arnor.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "gen"]
+      character: ["play", "gen"],
+      PC: true
     }
   },
   {
@@ -620,7 +933,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Towa_Herschel.png",
     opts: {
       series: ["AO","CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "thors2"]
+      character: ["play", "thors1", "thors2"],
+      PC: true
     }
   },
   {
@@ -628,7 +942,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Altina_Orion.png",
     opts: {
       series: ["CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors2", "class7"]
+      character: ["play", "thors2", "class7"],
+      PC: true
     }
   },
   {
@@ -636,7 +951,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Vita_Clotilde.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "snake"]
+      character: ["play", "snake"],
+      PC: true
     }
   },
   {
@@ -644,7 +960,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Ash_Carbide.png",
     opts: {
       series: ["CS3", "CS4", "Haji"],
-      character: ["play","thors2", "class7"]
+      character: ["play","thors2", "class7"],
+      PC: true
     }
   },
   {
@@ -652,7 +969,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Juna_Crawford.png",
     opts: {
       series: ["Zero", "AO", "CS3", "CS4", "Haji"],
-      character: ["play", "thors2", "class7"]
+      character: ["play", "thors2", "class7"],
+      PC: true
     }
   },
   {
@@ -660,7 +978,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Kurt_Vander.png",
     opts: {
       series: ["CS3", "CS4", "Haji"],
-      character: ["play", "thors2", "class7"]
+      character: ["play", "thors2", "class7"],
+      PC: true
     }
   },
   {
@@ -668,7 +987,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Musse_Egret.png",
     opts: {
       series: ["CS3", "CS4", "Haji"],
-      character: ["play", "thors2", "class7"]
+      character: ["play", "thors2", "class7"],
+      PC: true
     }
   },
   {
@@ -676,7 +996,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Aurelia_Le_Guin.png",
     opts: {
       series: ["CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "thors1", "thors2"]
+      character: ["play", "thors1", "thors2"],
+      PC: true
     }
   },
   {
@@ -684,7 +1005,251 @@ dataSet[dataSetVersion].characterData = [
     img: "Lechter_Arundel.png",
     opts: {
       series: ["3rd", "Zero", "AO", "CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["play", "blood"]
+      character: ["play", "blood"],
+      PC: true
     }
-  }
+  },
+  {
+    name: "McBurn",
+    img: "McBurn.png",
+    opts: {
+      series: ["CS2", "CS3", "CS4", "Haji"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Xeno",
+    img: "Xeno.png",
+    opts: {
+      series: ["CS2", "CS3", "CS4", "Haji"],
+      character: ["jaeger"],
+      NPC: true
+    }
+  },
+  {
+    name: "Leonidas",
+    img: "Leonidas.png",
+    opts: {
+      series: ["CS2", "CS3", "CS4", "Haji"],
+      character: ["jaeger"],
+      NPC: true
+    }
+  },
+  {
+    name: "Duvalie",
+    img: "Duvalie.png",
+    opts: {
+      series: ["AO", "CS2", "CS3", "CS4", "Haji"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Rufus Albarea",
+    img: "Rufus_Albarea.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["blood", "erearmy"],
+      NPC: true
+    }
+  },
+  {
+    name: "Victor S. Arseid",
+    img: "Victor_S._Arseid.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Cedric Reise Arnor",
+    img: "Cedric_Reise_Arnor.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["blood", "thors1", "snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "George Nome",
+    img: "George_Nome.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["thors1"],
+      NPC: true
+    }
+  },
+  {
+    name: "Carl Regnitz",
+    img: "Carl_Regnitz.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Michael Gideon",
+    img: "Michael_Gideon.png",
+    opts: {
+      series: ["AO", "CS1"],
+      character: ["liberation"],
+      NPC: true
+    }
+  },
+  {
+    name: "Scarlet",
+    img: "Scarlet.png",
+    opts: {
+      series: ["CS1", "CS2", "Haji"],
+      character: ["liberation"],
+      NPC: true
+    }
+  },
+  {
+    name: "Vulcan",
+    img: "Vulcan.png",
+    opts: {
+      series: ["CS1", "CS2"],
+      character: ["liberation"],
+      NPC: true
+    }
+  },
+  {
+    name: "Giliath Osborne",
+    img: "Giliath_Osborne.png",
+    opts: {
+      series: ["3rd", "AO", "CS1", "CS2", "CS3", "CS4"],
+      character: ["erearmy", "blood"],
+      NPC: true
+    }
+  },
+  {
+    name: "Irina Reinford",
+    img: "Irina_Reinford.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Neithardt",
+    img: "Neithardt.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4"],
+      character: ["erearmy", "thors1"],
+      NPC: true
+    }
+  },
+  {
+    name: "Croire de Cayenne",
+    img: "Duke_Cayenne.png",
+    opts: {
+      series: ["CS1", "CS2"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Rutger Claussell",
+    img: "Rutger_Claussell.png",
+    opts: {
+      series: ["CS3", "CS4"],
+      character: ["jaeger"],
+      NPC: true
+    }
+  },
+  {
+    name: "Thomas Lysander",
+    img: "Thomas_Lysander.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["church", "thors1"],
+      NPC: true
+    }
+  },
+  {
+    name: "Wallace Bardias",
+    img: "Wallace_Bardias.png",
+    opts: {
+      series: ["CS2", "CS3", "CS4"],
+      character: ["erearmy"],
+      NPC: true
+    }
+  },
+  {
+    name: "Patrick T. Hyarms",
+    img: "Patrick_Hyarms.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["thors1"],
+      NPC: true
+    }
+  },
+  {
+    name: "Roselia Millstein",
+    img: "Roselia.png",
+    opts: {
+      series: ["CS3", "CS4", "Haji"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Rosine",
+    img: "Rosine.png",
+    opts: {
+      series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
+      character: ["thors1", "church"],
+      NPC: true
+    }
+  },
+  {
+    name: "Professor Gerhardt Schmidt",
+    img: "G._Schmidt.png",
+    opts: {
+      series: ["CS2", "CS3", "CS4", "Haji"],
+      character: ["thors2"],
+      NPC: true
+    }
+  },
+  {
+    name: "Ines",
+    img: "Ines.png",
+    opts: {
+      series: ["AO", "CS3", "CS4", "Haji"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
+  {
+    name: "Michael Irving",
+    img: "Michael_Irving.png",
+    opts: {
+      series: ["CS3", "CS4", "Haji"],
+      character: ["thors2", "erearmy"],
+      NPC: true
+    }
+  },
+  {
+    name: "Black Alberich",
+    img: "Alberich.png",
+    opts: {
+      series: ["CS3", "CS4"],
+      character: ["gen"],
+      NPC: true
+    }
+  },
+  {
+    name: "Ennea",
+    img: "Ennea.png",
+    opts: {
+      series: ["AO", "CS3", "CS4", "Haji"],
+      character: ["snake"],
+      NPC: true
+    }
+  },
 ];
