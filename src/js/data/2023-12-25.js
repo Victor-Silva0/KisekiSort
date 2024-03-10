@@ -427,7 +427,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Grant",
     img: "Grant.png",
     opts: {
-      series: ["FC", "SC", "3rd", "Kuro"],
+      series: ["FC", "SC", "3rd"],
       character: ["bracer"],
       NPC: true
     }
@@ -483,7 +483,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Randy_Orlando.png",
     opts: {
       series: ["Zero", "AO", "CS3", "CS4", "Haji"],
-      character: ["play", "SSS", "jaeger", "CGF"],
+      character: ["play", "SSS", "jaeger", "CGF", "thors2"],
       PC: true
     }
   },
@@ -573,7 +573,8 @@ dataSet[dataSetVersion].characterData = [
     img: "KeA_Bannings.png",
     opts: {
       series: ["Zero", "AO", "CS4", "Haji"],
-      character: ["SSS"]
+      character: ["SSS"],
+      NPC: true
     }
   },
   {
@@ -1023,8 +1024,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Xeno.png",
     opts: {
       series: ["CS2", "CS3", "CS4", "Haji"],
-      character: ["jaeger"],
-      NPC: true
+      character: ["play","jaeger"],
+      PC: true
     }
   },
   {
@@ -1032,7 +1033,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Leonidas.png",
     opts: {
       series: ["CS2", "CS3", "CS4", "Haji"],
-      character: ["jaeger"],
+      character: ["play","jaeger"],
       NPC: true
     }
   },
@@ -1059,8 +1060,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Victor_S._Arseid.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["gen"],
-      NPC: true
+      character: ["play","gen"],
+      PC: true
     }
   },
   {
@@ -1077,8 +1078,8 @@ dataSet[dataSetVersion].characterData = [
     img: "George_Nome.png",
     opts: {
       series: ["CS1", "CS2", "CS3", "CS4", "Haji"],
-      character: ["thors1"],
-      NPC: true
+      character: ["play","thors1"],
+      PC: true
     }
   },
   {
@@ -1194,8 +1195,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Roselia.png",
     opts: {
       series: ["CS3", "CS4", "Haji"],
-      character: ["gen"],
-      NPC: true
+      character: ["play","gen"],
+      PC: true
     }
   },
   {
@@ -1221,8 +1222,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Ines.png",
     opts: {
       series: ["AO", "CS3", "CS4", "Haji"],
-      character: ["snake"],
-      NPC: true
+      character: ["play","snake"],
+      PC: true
     }
   },
   {
@@ -1248,8 +1249,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Ennea.png",
     opts: {
       series: ["AO", "CS3", "CS4", "Haji"],
-      character: ["snake"],
-      NPC: true
+      character: ["play","snake"],
+      PC: true
     }
   },
 ];
