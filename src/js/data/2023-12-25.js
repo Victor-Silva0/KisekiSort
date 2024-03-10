@@ -1034,7 +1034,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       series: ["CS2", "CS3", "CS4", "Haji"],
       character: ["play","jaeger"],
-      NPC: true
+      PC: true
     }
   },
   {
