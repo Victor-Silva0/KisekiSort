@@ -103,7 +103,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Klaudia von Auslese",
     img: "Klaudia_von_Auslese.png",
     opts: {
-      series: ["FC", "SC", "3rd", "AO", "CS4"],
+      series: ["FC", "SC", "3rd", "AO", "CS4", "Haji"],
       character: ["play", "gen"],
       PC: true
     }
@@ -1042,8 +1042,8 @@ dataSet[dataSetVersion].characterData = [
     img: "Duvalie.png",
     opts: {
       series: ["AO", "CS2", "CS3", "CS4", "Haji"],
-      character: ["snake"],
-      NPC: true
+      character: ["play","snake"],
+      PC: true
     }
   },
   {
